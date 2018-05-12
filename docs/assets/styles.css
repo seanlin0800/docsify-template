@@ -56,8 +56,8 @@ body {
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  color: #34495e;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  color: rgba(0,0,0,.8);
+  font-family: Georgia, Cambria, "Times New Roman", Times, "Noto Sans TC", serif;
   font-size: 15px;
   letter-spacing: 0;
   margin: 0;
@@ -369,6 +369,20 @@ body.sticky .sidebar-toggle {
   padding: 12px 24px 12px 30px;
   position: relative;
 }
+
+.markdown-section p,
+.markdown-section li {
+    --x-height-multiplier: 0.35;
+    --baseline-multiplier: 0.179;
+    font-family: Georgia, Cambria, "Times New Roman", Times, "Noto Sans TC";
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+}
+
 .markdown-section p.tip:before {
   background-color: #f66;
   border-radius: 100%;
@@ -663,7 +677,8 @@ body {
 .markdown-section h4,
 .markdown-section strong {
   color: #2c3e50;
-  font-weight: 600;
+  font-family: "Source Sans Pro", "Noto Sans TC";
+  font-weight: 700;
 }
 .markdown-section a {
   color: var(--theme-color, #42b983);
