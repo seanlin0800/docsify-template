@@ -283,11 +283,12 @@ main.hidden {
   outline: none;
   padding: 10px;
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   text-align: center;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
+  cursor: pointer;
   width: 284px;
   z-index: 30;
 }
