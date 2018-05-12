@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:400,700");
 * {
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
@@ -226,7 +226,7 @@ main.hidden {
 .sidebar > h1 {
   margin: 0 auto 1rem;
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
 }
 .sidebar > h1 a {
@@ -317,7 +317,7 @@ body.sticky .sidebar-toggle {
 }
 .markdown-section {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 730px;
   padding: 30px 15px 40px 15px;
   position: relative;
 }
@@ -574,7 +574,7 @@ section.cover p {
 section.cover h1 {
   color: inherit;
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0.625rem 0 2.5rem;
   position: relative;
   text-align: center;
@@ -663,7 +663,7 @@ body {
 .sidebar ul li.active > a {
   border-right: 2px solid;
   color: var(--theme-color, #42b983);
-  font-weight: 600;
+  font-weight: 700;
 }
 .app-sub-sidebar li::before {
   content: '-';
@@ -682,35 +682,33 @@ body {
 }
 .markdown-section a {
   color: var(--theme-color, #42b983);
-  font-weight: 600;
 }
 .markdown-section h1 {
-  font-size: 2rem;
+  font-size: 40px;
   margin: 0 0 1rem;
 }
 .markdown-section h2 {
-  font-size: 1.75rem;
+  font-size: 32px;
   margin: 45px 0 0.8rem;
 }
 .markdown-section h3 {
-  font-size: 1.5rem;
+  font-size: 24px;
   margin: 40px 0 0.6rem;
 }
 .markdown-section h4 {
-  font-size: 1.25rem;
+  font-size: 21px;
 }
 .markdown-section h5 {
-  font-size: 1rem;
+  font-size: 21px;
 }
 .markdown-section h6 {
   color: #777;
-  font-size: 1rem;
+  font-size: 21px;
 }
-.markdown-section figure,
-.markdown-section p {
+.markdown-section figure {
   margin: 1.2em 0;
 }
-.markdown-section p,
+
 .markdown-section ul,
 .markdown-section ol {
   line-height: 1.6rem;
@@ -727,7 +725,6 @@ body {
   padding-left: 20px;
 }
 .markdown-section blockquote p {
-  font-weight: 600;
   margin-left: 0;
 }
 .markdown-section iframe {
@@ -741,7 +738,6 @@ body {
   border-radius: 2px;
   color: #e96900;
   font-family: 'Roboto Mono', Monaco, courier, monospace;
-  font-size: 0.8rem;
   margin: 0 2px;
   padding: 3px 5px;
   white-space: pre-wrap;
@@ -842,7 +838,7 @@ body {
   color: #525252;
   display: block;
   font-family: 'Roboto Mono', Monaco, courier, monospace;
-  font-size: 0.8rem;
+  font-size: 16px;
   line-height: inherit;
   margin: 0 2px;
   max-width: inherit;
