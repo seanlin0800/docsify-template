@@ -344,6 +344,7 @@ body.sticky .sidebar-toggle {
   display: block;
   margin-bottom: 1rem;
   overflow: auto;
+  font-size: 18px;
   width: 100%;
 }
 .markdown-section th {
