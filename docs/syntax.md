@@ -1,10 +1,13 @@
-## Syntax
+# Syntax
 
 Markdown 的目標是實現「易讀易寫」。
 
 不過最需要強調的便是它的可讀性。一份使用Markdown格式撰寫的文件應該可以直接以純文字發佈，並且看起來不會像是由許多標籤或是格式指令所構成。
 
-## H2
+
+## Headers
+
+## H2 {docsify-ignore}
 
 ### H3
 
@@ -14,11 +17,11 @@ Markdown 的目標是實現「易讀易寫」。
 
 ###### H6
 
----
+## Blockquotes
 
 > 因為需要感謝的人太多了，就感謝天罷。
 
----
+## Lists
 
 - Lorem ipsum dolor sit amet
 - Nulla volutpat aliquam velit
@@ -26,13 +29,14 @@ Markdown 的目標是實現「易讀易寫」。
     - Purus sodales ultricies
 - Faucibus porta lacus fringilla vel
 
+---
 
 1. Lorem ipsum dolor sit amet
 2. Consectetur adipiscing elit
 3. Integer molestie lorem at massa
 4. Facilisis in pretium nisl aliquet
 
----
+## Code and Syntax Highlighting
 
 In this example, `<section></section>` should be wrapped as **code**.
 
@@ -47,7 +51,7 @@ def search(lines, pattern, history=5):
         previous_lines.append(line)
 ```
 
----
+## Tables
 
 | Option | Description |
 | ------ | ----------- |
