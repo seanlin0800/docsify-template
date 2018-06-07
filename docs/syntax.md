@@ -77,3 +77,18 @@ def search(lines, pattern, history=5):
 :smile: :one: :white_check_mark:
 
 ![Stormtroopocat](http://octodex.github.com/images/stormtroopocat.jpg)
+
+---
+
+KaTeX
+
+Logistic function: $f(x) = \frac{1}{1+e^{-x}}$
+
+The 3n+1 problem
+
+$$
+f(n) = \begin{cases}
+\frac{n}{2}, & \text{if } n\text{ is even} \cr
+3n+1, & \text{if } n\text{ is odd}
+\end{cases}
+$$
