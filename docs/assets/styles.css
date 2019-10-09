@@ -331,8 +331,20 @@ body.sticky .sidebar-toggle {
 }
 .markdown-section hr {
   border: none;
-  border-bottom: 1px solid #eee;
-  margin: 2em 0;
+  background-color: transparent;
+  height: auto;
+  text-align: center;
+  font-size: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 24px 0 32px;
+}
+.markdown-section hr:before {
+  content: "...";
+  line-height: 1.4;
+  font-style: italic;
+  text-indent: 0.6em;
+  letter-spacing: 0.6em;
 }
 .markdown-section iframe {
   border: 1px solid #eee;
