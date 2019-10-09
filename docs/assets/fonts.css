@@ -1,23 +1,4 @@
-/*
- * Noto Sans TC (Chinese_traditional) http://www.google.com/fonts/earlyaccess
- */
 
-@font-face {
-    font-family: 'Noto Sans TC';
-    font-style: normal;
-    font-weight: 400;
-    font-display: fallback;
-    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
-         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
-         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
- }
-
-@font-face {
-    font-family: 'Noto Sans TC';
-    font-style: normal;
-    font-weight: 700;
-    font-display: fallback;
-    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'),
-         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
-         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
-}
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:400,700");
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap&subset=chinese-traditional');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:700&display=swap&subset=chinese-traditional');
